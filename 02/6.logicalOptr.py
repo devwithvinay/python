@@ -28,6 +28,11 @@ else :
     print("its normal outside")
 
 # not
- 
-  
+
+age = int(input("Enter your age : "))
+
+if not age>=18:
+    print("you can vote !")
+else:
+    print("you cannot vote !")
     
